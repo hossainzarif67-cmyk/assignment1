@@ -1,3 +1,82 @@
-h1{
-    background-color: red;
+*{
+    padding:0;
+    margin:0;
+    font-family: "Open Sans", sans-serif;
 }
+/* commonstyle */
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+.common-btn{
+    background-color: rgb(55, 55, 204);
+    border-radius: 3px;
+    color:white;
+    padding:8px 23px
+}
+/* navbarstyling */
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+.nav-middle ul {
+    display: flex;
+    gap: 30px;
+
+    list-style:none;
+    
+}
+.nav-middle ul li a {
+    font-size:20px ;
+    color:black;
+}
+  /* hero section edit */
+  .hero-section-bg{
+    background-image: url("./assets/banner.jpg");
+    height:120vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    margin: 0 auto;
+     display:flex;
+       margin:auto;
+       justify-content: center;
+       align-items:center;
+    
+}
+
+  .hero-section .hero-section-bg h1{
+    font-size:61px ;
+    font-weight:bold;
+     color:white;
+     margin-bottom: 20px;
+     text-align: center;
+  }
+  .hero-section .hero-section-bg p{
+    font-size: large;
+    font-weight:bold;
+     color:white;
+     margin-bottom:32px;
+     text-align: center;
+     
+     max-width:840px;
+     display: block;
+      margin: 30px auto 0;
+      margin-bottom:300px;
+  }
+  .hero-section .hero-section-bg written{
+     text-align:center;
+     max-width:850px;
+     
+  }
+
+ 
+  .hero-btn{
+    padding: 16px 40px;
+    font-size: 18px;
+    margin: 30px auto 0;
+    display: block;
+}  
