@@ -14,6 +14,7 @@
     border-radius: 3px;
     color:white;
     padding:8px 23px;
+    border-radius:7px;
    
 }
 .common-btn-2{
@@ -24,7 +25,10 @@
     width: 220px;
      align-items:center ;
      margin-top:25px ;
-     margin-left:35px;}
+     margin-left:35px;
+     border-radius:7px;
+    }
+     
 
 .common-btn-3{
     background-color:#2563eb;
@@ -35,6 +39,7 @@
      margin-top:25px ;
      margin-left:10px;
      width: 220px;
+     border-radius:7px;
 }
 
 
@@ -151,6 +156,7 @@
         border:rgb(18, 17, 17) solid 2px;
         height:35vh;
         max-width:1200px;
+        margin-bottom:15px;
         
     }
     .middle-card{
@@ -162,6 +168,75 @@
      text-align:center;
     }
     
+
+    /* ai part start */
+    .hackathon{
+    background:#0f172a;
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.hackathon h2{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    max-width:700px;
+    margin:auto;
+    color:#cbd5e1;
+    margin-bottom:50px;
+}
+
+.hackathon-cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.hack-card{
+    background:white;
+    color:#111827;
+    width:300px;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.hack-card:hover{
+    transform:translateY(-8px);
+}
+
+.hack-card h3{
+    margin-bottom:15px;
+    color:#2563eb;
+}
+
+.hack-card h1{
+    color:#2563eb;
+    margin:15px 0;
+    font-size:42px;
+}
+
+.hack-btn{
+    display:inline-block;
+    margin-top:50px;
+    padding:15px 40px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.hack-btn:hover{
+    background:#1d4ed8;
+}
+/* footer edit start */
 .footer{
         margin-top:20px;
         background-color: #0d1b2a;
