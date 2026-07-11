@@ -13,7 +13,34 @@
     background-color: rgb(55, 55, 204);
     border-radius: 3px;
     color:white;
-    padding:8px 23px
+    padding:8px 23px;
+   
+}
+.common-btn-2{
+    background-colo:white;
+    border-radius: 3px;
+    color:#0d1b2a;
+    padding:4px px;
+    width: 220px;
+     align-items:center ;
+     margin-top:25px ;
+     margin-left:35px;}
+
+.common-btn-3{
+    background-color:#2563eb;
+    border-radius: 3px;
+    color:#ffffff;
+    padding:2px 10px;
+     align-items:center ;
+     margin-top:25px ;
+     margin-left:10px;
+     width: 220px;
+}
+
+
+
+.common-blue-text{
+    color:blue;
 }
 /* navbarstyling */
 .navbar{
@@ -67,7 +94,7 @@
       margin: 30px auto 0;
       margin-bottom:300px;
   }
-  .hero-section .hero-section-bg written{
+  .hero-section .hero-section-bg .written{
      text-align:center;
      max-width:850px;
      
@@ -80,3 +107,58 @@
     margin: 30px auto 0;
     display: block;
 }  
+/* middle part edit */
+.middle-text{
+    max-width:1200px;
+    margin: 0 auto;
+    text-align:center;
+    font-size:26px;
+}
+.cards{
+    max-width: fit-content;
+     margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+     align-items:center;
+     
+     
+   
+   
+}
+.card{
+   gap: 10px;
+    
+    overflow: hidden;
+    
+    
+}
+.card img{
+    width:100%;}
+    /* price section edit  */
+    .details{
+        margin-top:20px;
+        text-align:center;
+    }  
+    .price-cards{
+        display: flex;
+        justify-content:center;
+    }
+    .price-card{
+        
+        background-color:#ffffff;
+    
+        padding: 15px 18px;
+        border:rgb(18, 17, 17) solid 2px;
+        height:35vh;
+        max-width:1200px;
+        
+    }
+    .middle-card{
+        background-color:#0d1b2a;
+    }
+    .card-heading{
+     text-decoration: none;
+     align-items: center;
+     text-align:center;
+    }
+    
